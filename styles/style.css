@@ -4,10 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
-    font-family: 'Poppins', sans-serif;
     background-color: #FFF1DF;
 }
 
@@ -46,6 +46,23 @@ h2 {
 
 .vh-auto {
     min-height: 100vh;
+}
+
+footer{
+    background-color: #FFF1DF; 
+}
+
+.img-friendship {
+    width: 260px;
+    height: 260px;
+}
+
+.btn-friendship {
+    background-color: #4A8245;
+    text-decoration: none;
+    color: #FFF1DF;
+    width: 200px;
+    height: 50px;
 }
 
 @media (max-width: 900px) {
